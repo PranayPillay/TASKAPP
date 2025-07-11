@@ -21,6 +21,7 @@ npm install
 ```
 ## Create a .env file inside /server and add:
 PORT=5000
+
 JWT_SECRET=12345
 
 ## inside server/config open db.js and replace the "taskdb","postgres","redhat" with your dbname,username and postgrespassword

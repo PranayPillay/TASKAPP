@@ -10,8 +10,8 @@
 ## Setup Instructions
 
 ### Clone the repo
-git clone <your-repo-url>
-cd <your-repo-folder>
+git clone https://github.com/PranayPillay/TASKAPP
+cd TASKAPP
 
 ## setup the backend(server)
 

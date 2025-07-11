@@ -12,7 +12,7 @@
 ### Clone the repo
 ```bash
 git clone https://github.com/PranayPillay/TASKAPP
-cd TASKAPP
+
 ```
 ## setup the backend(server)
 ```bash

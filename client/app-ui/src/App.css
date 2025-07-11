@@ -1,0 +1,180 @@
+*
+{
+  margin: 0;
+} 
+
+.container
+{
+  position: fixed;
+  top:50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+
+  width: 700px;
+  height: 700px;
+  
+}
+
+.subcontainer
+{
+   position: absolute;
+  top:50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+ 
+  width: 500px;
+  height: 500px;
+}
+
+.contentcontainer
+{
+  position: absolute;
+  top:50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  border: 5px solid brown;
+  width: 400px;
+  height: 400px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap:35px;
+  border-radius: 20px;
+  background: burlywood;
+
+}
+
+
+input{
+  width: 250px;
+  height: 30px;
+
+}
+
+#b1
+{
+  width: 100px;
+  height: 40px;
+  background-color: brown;
+  color: antiquewhite;
+}
+
+#b1:hover{
+  transform:translateY(-5px);
+  cursor: pointer;
+}
+
+.taskcontainer
+{
+  position:fixed;
+  top:50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  width: 100vw;
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; */
+  height:100vh;
+  margin-top: 70px;
+
+}
+
+.createtaskcontainer
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+  gap:10px;
+
+}
+
+#addbutton
+{
+  width: 100px;
+  height: 30px;
+  background: burlywood;
+  margin-top: 20px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+textarea
+{
+  width: 300px;
+  height: 128px;
+}
+
+#createtask
+{
+  text-align: center;
+}
+
+#yourtasks
+{
+  text-align: center;
+  margin-top: 20px;
+}
+
+#taskheading
+{
+  display: flex;
+  justify-content: center;
+  
+}
+
+#headercontain
+{
+  background: brown;
+}
+
+
+.taskconatin
+{
+  width: 100vw;
+  height: 100vh;
+  background: antiquewhite;
+  
+}
+
+#finaltasks
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  gap:10px
+}
+
+#editbutton,#deletebutton,#savebutton,#cancelbutton
+{
+  background-color:burlywood;
+  cursor: pointer;
+  
+}
+
+
+.signupandlogincontainer{
+  width: 100vw;
+  height: 100vh;
+  background: antiquewhite;
+}
+
+
+#b2
+{
+  background-color: burlywood;
+  cursor: pointer;
+  width: 60px;
+  height: 30px;
+  font-weight: bold;
+}
+
+.red
+{
+  color: red;
+}
